@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+
+
+        function App() {
+            return (
+              
+                <div>
+                    <header>
+                        <h1>Hi im Salley</h1>
+                    <img src="sallyimg.jpg" />
+                    </header>
+                    <main>
+                    <h2> im a Full-Stack dev with a passion for responsive design</h2>
+                    </main>
+                    <section>
+                    <p>my past experience consist of the following</p>
+                    <ul>
+                    <li>Hulu :2013-2018</li>
+                    <li>disney :2018-still</li>
+                    </ul>
+                     </section>
+                     <section>
+                     <h3>contact me: phone xxx-xxx-xxxx Email:sallywalker@zeromail.com</h3>
+                     </section>
+
+                </div>
+            )
+        }
+        ReactDOM.render(
+            <App />,
+            document.querySelector('#root')
+
+        );
+
+    </script>
+</body>
+
+</html>
